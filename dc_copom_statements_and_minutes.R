@@ -168,4 +168,4 @@ print("Data preprocessing:")
 print(t2-t1)
 
 # Saving
-write.table(df_final, "db_copom.txt", sep = "|", row.names = F, quote = F)
+write.table(df_final, "data/db_copom.txt", sep = "|", row.names = F, quote = F)
